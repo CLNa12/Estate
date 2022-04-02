@@ -1065,6 +1065,9 @@ body {
 
 .write__link span {
   padding-right: 5px;
+  font-size: 15px;
+  line-height: 21px;
+  color: #45525B;
 }
 
 /* Testimonials */
