@@ -1,0 +1,16 @@
+.container {
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.title {
+  font-size: 36px;
+  line-height: 43px;
+  color: #45525B;
+}
+/*# sourceMappingURL=global.css.map */
