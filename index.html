@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/slick.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+
+  <header class="header">
+    <div class="header__inner">
+      <a class="logo" href="#">
+        <img class="logo__img" src="../images/svg/logo.svg" alt="logo-white">
+      </a>
+      <nav class="menu">
+        <button class="menu__btn">
+          <span class="row"></span>
+        </button>
+        <ul class="menu__list">
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">
+              Product overview
+            </a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">
+              Why us
+            </a>
+          </li>
+          <li class="menu__list-item">
+            <a class="menu__list-link" href="#">
+              Pricing
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div class="user-nav">
+        <a class="user-nav__link" href="#">Sign in</a>
+        <a class="user-nav__link" href="#">Sign up</a>
+      </div>
+    </div>
+  </header>
+  <!-- <section class="hero">
+    <div class="container">
+      <div class="hero__inner">
+        <div class="hero__content-info">
+          <h1 class="hero__title">Making A/B tests is challenging. We make it easy</h1>
+          <p class="hero__text">- Multiple clicks to create an experiment, single request to run</p>
+          <p class="hero__text hero__text-bottom">- Ideal solution for startups and mid-size business</p>
+          <button class="hero__btn">Get Started</button>
+          <div class="hero__company">
+            <span>You are in good company:</span>
+            <img class="hero__holyeat" src="../images/svg/company-1.svg" alt="holyeat">
+            <img class="hero__proxyedmail" src="../images/company-2.png" alt="proxyedmail">
+          </div>
+        </div>
+        <img class="hero__img" src="../images/hero-bg.png" alt="img">
+      </div>
+
+    </div>
+  </section>
+  <section class="single">
+    <div class="container">
+      <div class="single__inner">
+        <div class="single__content-info">
+          <div class="single__prev">Meet the product</div>
+          <h2 class="single__title title">The single place for all your product experiments</h2>
+          <div class="single__items">
+            <div class="single__item">
+              <img class="single__item-img" src="../images/svg/single-1.svg" alt="single-1">
+              <p class="single__item-descr">Run experiment by passing your internal user id.</p>
+            </div>
+            <div class="single__item">
+              <img class="single__item-img" src="../images/svg/single-2.svg" alt="single-2">
+              <p class="single__item-descr">ABRouter will define a branch based on branches percentage.</p>
+            </div>
+            <div class="single__item">
+              <img class="single__item-img" src="../images/svg/single-3.svg" alt="single-3">
+              <p class="single__item-descr">The system will remember the branch for further requests.</p>
+            </div>
+            <div class="single__item">
+              <img class="single__item-img" src="../images/svg/single-3.svg" alt="single-4">
+              <p class="single__item-descr">Curl and postman collection included</p>
+            </div>
+            <div class="single__item">
+              <img class="single__item-img" src="../images/svg/single-5.svg" alt="single-5">
+              <p class="single__item-descr">We will show you insights for every experiment based on data that you allow
+                us to use.</p>
+            </div>
+          </div>
+          <a class="single__link" href="#">Explore ABRouter</a>
+        </div>
+        <div class="single-content__inner ">
+          <img class="single__image" src="../images/single-bg.png" alt="single-bg">
+          <div class="single-all__link">
+            <a class="single-content__inner-link" href="#">Management interface</a>
+            <a class="single-content__inner-link" href="#">API Interface</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="benefits">
+    <div class="container">
+      <div class="benefits__inner">
+        <div class="benefits__prev">Features</div>
+        <h4 class="benefits__title title">Benefits from using ABRouter</h4>
+        <p class="benefits__subtitle">Сustomize your project using the ABRouter</p>
+        <div class="benefits__row">
+          <div class="benefits__item">
+            <img class="benefits__img" src="../images/svg/benefits-1.svg" alt="benefits-1">
+            <h5 class="benefits__item-title">Automation</h5>
+            <p class="benefits__item-descr">No one line code needs to create new experiments except request to run
+              experiment.</p>
+          </div>
+          <div class="benefits__item">
+            <img class="benefits__img" src="../images/svg/benefits-2.svg" alt="benefits-1">
+            <h5 class="benefits__item-title">One place</h5>
+            <p class="benefits__item-descr">Manage all your experiments anytime on any device.</p>
+          </div>
+          <div class="benefits__item">
+            <img class="benefits__img" src="../images/svg/benefits-3.svg" alt="benefits-1">
+            <h5 class="benefits__item-title">Reporting</h5>
+            <p class="benefits__item-descr">The system will create reports for every branch of your experiment to help
+              you make the right decision.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="system">
+    <div class="container">
+      <div class="system__inner">
+        <div class="system__info">
+          <div class="system__info-prev">Features</div>
+          <h5 class="system__info-title title">What is ABRouter?</h5>
+          <p class="system__info-descr">ABRouter provides the system to run ab-tests/experiments on the back-end side of
+            your application.</p>
+          <a class="system__info-link" href="#">Explore ABRouter</a>
+        </div>
+        <div class="system__content">
+          <img class="system-img" src="../images/system-bg.jpg" alt="system">
+          <ul class="system__menu">
+            <li class="system__menu-item">
+              <a class="system__menu-link" href="#">What is ABRouter?</a>
+            </li>
+            <li class="system__menu-item">
+              <a class="system__menu-link" href="#">Experiments</a>
+            </li>
+            <li class="system__menu-item">
+              <a class="system__menu-link" href="#">Branch</a>
+            </li>
+            <li class="system__menu-item">
+              <a class="system__menu-link" href="#">Easy to manage</a>
+            </li>
+            <li class="system__menu-item">
+              <a class="system__menu-link" href="#">Best price</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="price">
+    <div class="container">
+      <div class="price__inner">
+        <div class="price__prev">Pricing</div>
+        <h1 class="price__title title">Plans scale with your growth</h1>
+        <div class="price__items">
+          <div class="price__item">
+            <div class="price__item-title">Free</div>
+            <p class="price__item-text">$0/month</p>
+            <div class="price__item-opor">What you can do?</div>
+            <ul class="price__menu-list price__menu-list--1">
+              <li class="price__menu-item">Some feature text</li>
+              <li class="price__menu-item">Some feature text</li>
+            </ul>
+            <button class="price__item-btn" href="#">Start free trial</button>
+          </div>
+          <div class="price__item">
+            <div class="price__item-title">Team</div>
+            <p class="price__item-text">$8/month</p>
+            <div class="price__item-opor">What you can do?</div>
+            <ul class="price__menu-list price__menu-list--2">
+              <li class="price__menu-item">Some feature text</li>
+              <li class="price__menu-item">Some feature text</li>
+              <li class="price__menu-item">Some feature text</li>
+              <li class="price__menu-item">Some feature text</li>
+            </ul>
+            <button class="price__item-btn" href="#">Start free trial</button>
+          </div>
+          <div class="price__item price__item--image">
+            <div class="price__item-title">Premium</div>
+            <p class="price__item-text">$20/month</p>
+            <div class="price__item-opor">What you can do?</div>
+            <ul class="price__menu-list price__menu-list--3">
+              <li class="price__menu-item">Some feature text</li>
+              <li class="price__menu-item">Some feature text</li>
+              <li class="price__menu-item">Some feature text</li>
+              <li class="price__menu-item">Some feature text</li>
+              <li class="price__menu-item">Some feature text</li>
+            </ul>
+            <button class="price__item-btn" href="#">Start free trial</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="started">
+    <div class="container">
+      <div class="started__inner">
+        <h2 class="started__title title">Getting started is easy</h2>
+        <p class="started__descr">Start using ABRouter for free and see how it can improve your application.</p>
+        <button class="started__btn">Start free trial</button>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <a class="footer__logo " href="#">
+          <img class="logo-img" src="../images/logo-dark.png" alt="logo-dark">
+        </a>
+        <ul class="footer__menu">
+          <h1 class="footer__menu-title">Product</h1>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Product overview</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Why us</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Pricing</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Docs</a>
+          </li>
+        </ul>
+        <ul class="footer__menu footer__menu-width--2">
+          <h1 class="footer__menu-title">A/B tests</h1>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Implement A/B tests Laravel</a>
+          </li>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">Implement A/B tests PHP</a>
+          </li>
+        </ul>
+        <ul class="footer__menu footer__menu-width--3">
+          <h1 class="footer__menu-title">Support</h1>
+          <li class="footer__menu-item">
+            <a class="footer__menu-link" href="#">abrouter@prixedmail.com</a>
+          </li>
+        </ul>
+      </div>
+      <div class="footer__copy-inner">
+        <div class="footer__copy">© ABROUTER 2021. All rights reserved.</div>
+        <div class="footer__content-inner">
+          <div class="footer__copy-polic">Privacy Policy</div>
+          <div class="footer__copy-terms">Terms & Conditions</div>
+        </div>
+      </div>
+    </div>
+  </footer> -->
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
