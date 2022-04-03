@@ -342,11 +342,11 @@ body {
   &__item {
     padding: 21px 83px 30px 21px;
     transition: all 0.5s ease;
+    border-radius: 10px;
+    border: 1px solid rgba(202, 204, 209, 0.2);
     &:hover {
       background-color: #fafafc;
-      border: 1px solid rgba(202, 204, 209, 0.2);
       box-sizing: border-box;
-      border-radius: 10px;
     }
     @media (max-width: $breakpoint416) {
       padding: 21px 23px 30px 21px;
